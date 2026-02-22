@@ -1,0 +1,52 @@
+﻿# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+*.egg
+
+# AWS Credentials - NEVER commit these!
+.aws/
+*.pem
+credentials.csv
+config.json
+
+# Environment variables
+.env
+*.env
+
+# Data files - too large for Git
+data/synthetic/output/
+data/synthetic/augmented/
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Synthea JAR - too large
+*.jar
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Build artifacts
+dist/
+build/
