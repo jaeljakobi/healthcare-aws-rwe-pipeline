@@ -156,7 +156,7 @@ all_data.write.parquet(output_path, partitionBy=["format", "date"])
 
 ---
 
-## 🎯 Abbott Alignment
+## 🎯 Requirement
 
 | Requirement | Demonstration |
 |---|---|
